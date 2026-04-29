@@ -131,17 +131,6 @@ export default function Testimonials() {
                     ))}
                 </div>
 
-                {/* View all */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    viewport={{ once: true }}
-                    className="flex justify-center mt-12"
-                >
-                    <button className="text-white/50 hover:text-white text-[15px] font-medium transition-colors underline underline-offset-4">
-                        View all Reviews
-                    </button>
-                </motion.div>
             </div>
         </section>
     );
