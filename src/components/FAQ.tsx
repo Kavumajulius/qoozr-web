@@ -47,7 +47,6 @@ const faqs = [
     },
 ];
 
-
 export default function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
@@ -72,6 +71,21 @@ export default function FAQ() {
                     >
                         Frequently Asked <span className="text-primary italic">Questions</span>.
                     </motion.h2>
+                    
+                    <AnimatePresence>
+                        {openIndex !== null && (
+                            <motion.button
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                exit={{ opacity: 0, y: 10 }}
+                                onClick={() => setOpenIndex(null)}
+                                className="mt-8 text-sm font-bold uppercase tracking-wider text-text-muted hover:text-primary transition-colors flex items-center gap-2 mx-auto"
+                            >
+                                <span className="w-4 h-4 rounded-full border-2 border-current flex items-center justify-center text-[10px]">✕</span>
+                                Collapse All
+                            </motion.button>
+                        )}
+                    </AnimatePresence>
                 </div>
 
                 <div className="space-y-4">
@@ -81,35 +95,54 @@ export default function FAQ() {
                             initial={{ opacity: 0, y: 10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ delay: i * 0.1 }}
-                            className="bg-white rounded-[32px] overflow-hidden shadow-sm hover:shadow-framer transition-all duration-300"
+                            transition={{ delay: i * 0.05 }}
+                            className="bg-white rounded-[32px] overflow-hidden shadow-sm hover:shadow-framer transition-all duration-300 border border-transparent hover:border-border"
                         >
                             <button
+                                type="button"
                                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                                className="w-full p-8 md:p-10 flex items-center justify-between text-left group"
+                                className="w-full p-8 md:p-10 flex items-center justify-between text-left group transition-all"
+                                aria-expanded={openIndex === i}
                             >
-                                <span className="text-[20px] md:text-[22px] font-bold text-text-main leading-tight group-hover:text-primary transition-colors">
+                                <span className={`text-[20px] md:text-[22px] font-bold leading-tight transition-colors ${openIndex === i ? "text-primary" : "text-text-main group-hover:text-primary"}`}>
                                     {faq.q}
                                 </span>
-                                <motion.div
-                                    animate={{ rotate: openIndex === i ? 45 : 0 }}
-                                    className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${openIndex === i ? "bg-primary text-white" : "bg-[#f7f7f7] text-text-main"
+                                <div
+                                    className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 ${openIndex === i ? "bg-primary text-white rotate-180" : "bg-[#f7f7f7] text-text-main"
                                         }`}
                                 >
-                                    <Plus className="w-5 h-5" />
-                                </motion.div>
+                                    {openIndex === i ? (
+                                        <motion.div
+                                            initial={{ scale: 0, rotate: -90 }}
+                                            animate={{ scale: 1, rotate: 0 }}
+                                            transition={{ duration: 0.2 }}
+                                        >
+                                            <Plus className="w-5 h-5 rotate-45" />
+                                        </motion.div>
+                                    ) : (
+                                        <motion.div
+                                            initial={{ scale: 0, rotate: 90 }}
+                                            animate={{ scale: 1, rotate: 0 }}
+                                            transition={{ duration: 0.2 }}
+                                        >
+                                            <Plus className="w-5 h-5" />
+                                        </motion.div>
+                                    )}
+                                </div>
                             </button>
 
-                            <AnimatePresence>
+                            <AnimatePresence initial={false}>
                                 {openIndex === i && (
                                     <motion.div
+                                        key="content"
                                         initial={{ height: 0, opacity: 0 }}
                                         animate={{ height: "auto", opacity: 1 }}
                                         exit={{ height: 0, opacity: 0 }}
-                                        transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                                        transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
                                     >
                                         <div className="px-8 md:px-10 pb-10">
-                                            <p className="text-[18px] text-text-muted leading-relaxed max-w-[90%]">
+                                            <div className="w-full h-px bg-border mb-8 opacity-50" />
+                                            <p className="text-[18px] text-text-muted leading-relaxed max-w-[95%]">
                                                 {faq.a}
                                             </p>
                                         </div>
