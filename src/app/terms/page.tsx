@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Terms & Conditions — Qoozr",
-    description: "Read Qoozr's Terms & Conditions before using our AI learning platform.",
+    title: "Terms & Conditions — Qoozr: AI Tutor & Quiz",
+    description: "Read Qoozr: AI Tutor & Quiz's Terms & Conditions before using our AI learning platform.",
 };
 
 export default function TermsPage() {
@@ -11,7 +11,7 @@ export default function TermsPage() {
         {
             title: "Introduction & Acceptance",
             content: [
-                "Welcome to Qoozr (also known as \"Quick-Think\"), an AI-powered educational quiz and homework assistant application (the \"App\") developed and operated by Kavuma Kigere Julius (\"we,\" \"us,\" or \"our\").",
+                "Welcome to Qoozr: AI Tutor & Quiz, an AI-powered educational quiz and homework assistant application (the \"App\") developed and operated by Kavuma Kigere Julius (\"we,\" \"us,\" or \"our\").",
                 "These Terms and Conditions (\"Terms\") govern your access to and use of the Qoozr mobile application, available on the Apple App Store. Please read these Terms carefully before downloading, installing, or using the App.",
                 "By downloading, installing, registering for, or using the App — including by tapping \"Continue,\" \"Sign In,\" or \"Get Started\" — you confirm that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you must not use the App.",
                 "If you are under the age of 13, your parent or legal guardian must read and accept these Terms on your behalf before you use the App. See Section 11 for Children's Terms."
@@ -20,7 +20,7 @@ export default function TermsPage() {
         {
             title: "About Qoozr",
             content: [
-                "Qoozr is an AI-powered educational platform designed to make learning engaging, personalized, and accessible. The App provides:",
+                "Qoozr: AI Tutor & Quiz is an AI-powered educational platform designed to make learning engaging, personalized, and accessible. The App provides:",
                 [
                     "AI-Generated Quizzes — Dynamic quiz questions generated on demand by AI (OpenRouter / GPT-4o-mini) across 30+ subjects, calibrated to your age bracket and country",
                     "AI Scan (Homework Helper) — An AI-powered tool that analyzes photographs of homework or educational text and provides step-by-step explanations and solutions",
@@ -501,7 +501,7 @@ export default function TermsPage() {
                         Terms & <span className="text-accent italic">Conditions</span>
                     </h1>
                     <p className="text-[18px] text-white/50 leading-relaxed mx-auto max-w-[600px]">
-                        Please read these Terms & Conditions carefully before using Qoozr. They govern your use of our AI-powered educational platform.
+                        Please read these Terms & Conditions carefully before using Qoozr: AI Tutor & Quiz. They govern your use of our AI-powered educational platform.
                     </p>
                 </div>
             </section>

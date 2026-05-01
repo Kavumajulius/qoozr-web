@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Privacy Policy — Qoozr",
-    description: "Learn how Qoozr collects, uses, and protects your personal data.",
+    title: "Privacy Policy — Qoozr: AI Tutor & Quiz",
+    description: "Learn how Qoozr: AI Tutor & Quiz collects, uses, and protects your personal data.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,12 +14,12 @@ export default function PrivacyPolicyPage() {
                 "The App is owned and operated by:",
                 [
                     "Developer: Kavuma Kigere Julius",
-                    "App Name: Qoozr (also known as \"Quick-Think\")",
+                    "App Name: Qoozr: AI Tutor & Quiz",
                     "Email Address: support@qoozrapp.com",
                     "Privacy Contact: privacyinquiry@qoozrapp.com",
                     "Developer Account Name (as registered with Apple): Kavuma Kigere Julius"
                 ],
-                "Qoozr is an AI-powered educational platform that helps users of all ages learn through dynamically generated quizzes, personalized subject tracking, and an AI-powered homework scanning tool. The App supports users in over 30 subject categories across 7 languages, tailored by age bracket and country context."
+                "Qoozr: AI Tutor & Quiz is an AI-powered educational platform that helps users of all ages learn through dynamically generated quizzes, personalized subject tracking, and an AI-powered homework scanning tool. The App supports users in over 30 subject categories across 7 languages, tailored by age bracket and country context."
             ],
         },
         {
@@ -441,7 +441,7 @@ export default function PrivacyPolicyPage() {
                         Privacy <span className="text-primary italic">Policy</span>
                     </h1>
                     <p className="text-[18px] text-white/50 leading-relaxed mx-auto max-w-[600px]">
-                        Your privacy is important to us. This policy explains how Qoozr collects, uses, and protects your personal data when you use our AI-powered educational platform.
+                        Your privacy is important to us. This policy explains how Qoozr: AI Tutor & Quiz collects, uses, and protects your personal data when you use our AI-powered educational platform.
                     </p>
                 </div>
             </section>
