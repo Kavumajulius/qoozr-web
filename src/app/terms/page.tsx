@@ -474,9 +474,11 @@ export default function TermsPage() {
             <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-border/30">
                 <div className="framer-container flex items-center justify-between h-20">
                     <Link href="/" className="flex items-center gap-2 group">
-                        <div className="w-8 h-8 bg-primary rounded-[10px] flex items-center justify-center text-white font-bold text-lg shadow-sm transition-transform group-hover:scale-105">
-                            Q
-                        </div>
+                        <img 
+                            src="/images/logo.png" 
+                            alt="Qoozr Logo" 
+                            className="w-12 h-12 object-contain drop-shadow-sm transition-transform group-hover:scale-105"
+                        />
                         <span className="text-xl font-bold tracking-tight text-text-main">Qoozr</span>
                     </Link>
                     <Link
