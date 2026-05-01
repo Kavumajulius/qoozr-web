@@ -7,24 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function FoundersPage() {
-    const founders = [
-        {
-            name: "Founder Name",
-            role: "CEO & Co-Founder",
-            bio: "A passionate educator and technologist with a vision to democratize quality learning through artificial intelligence. Previously worked on EdTech solutions that reached over 500,000 students globally.",
-            image: null,
-            initials: "FN",
-            color: "bg-primary",
-        },
-        {
-            name: "Founder Name",
-            role: "CTO & Co-Founder",
-            bio: "A seasoned software engineer with deep expertise in machine learning and mobile development. Believes that the right technology can fundamentally transform how people learn and grow.",
-            image: null,
-            initials: "FN",
-            color: "bg-accent",
-        },
-    ];
 
     return (
         <main className="min-h-screen bg-white">
@@ -53,40 +35,62 @@ export default function FoundersPage() {
             <section className="pt-40 pb-24 bg-white">
                 <div className="framer-container text-center max-w-[700px] mx-auto">
                     <div className="inline-block bg-black/5 border border-border/50 rounded-full px-5 py-2 text-[14px] font-bold text-text-muted mb-8 tracking-wide uppercase">
-                        The Team
+                        Our Vision
                     </div>
                     <h1 className="text-[56px] md:text-[72px] leading-[1] font-medium tracking-tighter text-text-main mb-8">
-                        Meet the <span className="text-primary italic">founders</span> of Qoozr
+                        The heart behind <span className="text-primary italic">Qoozr</span>
                     </h1>
                     <p className="text-[18px] md:text-[20px] text-text-muted leading-relaxed">
-                        Qoozr was born from a shared belief: that every student deserves a smarter, more personalized way to learn. We built the tool we wished we had.
+                        Qoozr was born from a shared belief: that education is the most powerful tool we have to transform the world.
                     </p>
                 </div>
             </section>
 
-            {/* Founders Grid */}
+            {/* Founder Note Section */}
             <section className="pb-40">
                 <div className="framer-container">
-                    <div className="grid md:grid-cols-2 gap-10 max-w-[900px] mx-auto">
-                        {founders.map((founder, i) => (
-                            <div
-                                key={i}
-                                className="bg-[#f9f9f9] rounded-[40px] p-10 border border-border/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-500"
-                            >
-                                {/* Avatar */}
-                                <div className={`w-20 h-20 ${founder.color} rounded-[24px] flex items-center justify-center text-white text-3xl font-bold mb-8 shadow-lg`}>
-                                    {founder.initials}
-                                </div>
-
-                                <p className="text-[13px] font-bold text-text-muted/50 uppercase tracking-wider mb-2">{founder.role}</p>
-                                <h2 className="text-[32px] font-medium text-text-main tracking-tight mb-6">{founder.name}</h2>
-                                <p className="text-[16px] text-text-muted leading-relaxed">{founder.bio}</p>
+                    {/* Founder Note */}
+                    <div className="max-w-[850px] mx-auto bg-[#f9f9f9] rounded-[48px] p-12 md:p-20 border border-border/30 shadow-sm relative overflow-hidden">
+                        <div className="absolute top-0 left-0 w-2 h-full bg-primary/20" />
+                        
+                        <div className="relative z-10">
+                            <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-10 text-primary">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                </svg>
                             </div>
-                        ))}
+                            
+                            <h2 className="text-[32px] md:text-[40px] font-medium text-text-main tracking-tight leading-[1.2] mb-8">
+                                A Note from the <span className="text-primary italic">Founders</span>
+                            </h2>
+                            
+                            <div className="space-y-6 text-[18px] md:text-[20px] text-text-muted leading-relaxed font-medium">
+                                <p>
+                                    At Qoozr, we believe that education is the ultimate lever for human potential. Our journey began with a simple but profound realization: that quality learning shouldn&apos;t just be about passing tests, but about unlocking doors.
+                                </p>
+                                <p className="text-text-main">
+                                    We are on a mission to <span className="text-primary">accelerate social and financial abundance</span> through quality learning that our app facilitates. By putting a world-class, AI-powered tutor in every student&apos;s pocket, we are breaking down the barriers that have historically limited opportunity.
+                                </p>
+                                <p>
+                                    When students master subjects faster and more deeply, they don&apos;t just improve their grades — they expand their horizons. They gain the confidence to build, the knowledge to lead, and the tools to create a more abundant future for themselves and their communities.
+                                </p>
+                            </div>
+                            
+                            <div className="mt-12 flex items-center gap-4">
+                                <div className="flex -space-x-3">
+                                    <div className="w-12 h-12 bg-primary rounded-full border-4 border-[#f9f9f9] flex items-center justify-center text-white font-bold text-xs">K</div>
+                                    <div className="w-12 h-12 bg-accent rounded-full border-4 border-[#f9f9f9] flex items-center justify-center text-white font-bold text-xs">Q</div>
+                                </div>
+                                <div>
+                                    <p className="text-[15px] font-bold text-text-main">Kavuma & The Team</p>
+                                    <p className="text-[13px] text-text-muted font-medium uppercase tracking-wider">Founding Partners</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    {/* Mission Statement */}
-                    <div className="max-w-[800px] mx-auto mt-24 text-center bg-[#0e1010] rounded-[40px] p-16">
+                    {/* Mission Statement (Existing Black Card) */}
+                    <div className="max-w-[850px] mx-auto mt-24 text-center bg-[#0e1010] rounded-[40px] p-16">
                         <p className="text-[13px] font-bold text-white/30 uppercase tracking-wider mb-6">Our Mission</p>
                         <p className="text-[28px] md:text-[36px] leading-[1.3] font-medium text-white tracking-tight">
                             &ldquo;We believe AI can be the world&apos;s greatest tutor — personalized, patient, and always available for every student who needs it.&rdquo;
