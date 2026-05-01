@@ -15,8 +15,8 @@ export default function PrivacyPolicyPage() {
                 [
                     "Developer: Kavuma Kigere Julius",
                     "App Name: Qoozr (also known as \"Quick-Think\")",
-                    "Email Address: support@qoozr.app",
-                    "Privacy Contact: privacy@qoozr.app",
+                    "Email Address: support@qoozrapp.com",
+                    "Privacy Contact: privacyinquiry@qoozrapp.com",
                     "Developer Account Name (as registered with Apple): Kavuma Kigere Julius"
                 ],
                 "Qoozr is an AI-powered educational platform that helps users of all ages learn through dynamically generated quizzes, personalized subject tracking, and an AI-powered homework scanning tool. The App supports users in over 30 subject categories across 7 languages, tailored by age bracket and country context."
@@ -360,7 +360,7 @@ export default function PrivacyPolicyPage() {
                 "You may request the deletion of your account and all associated data at any time by:",
                 [
                     "Using the account deletion option in App Settings → Profile → Delete Account (where available in the App), or",
-                    "Contacting us directly at privacy@qoozr.app with the subject line \"Account Deletion Request\""
+                    "Contacting us directly at privacyinquiry@qoozrapp.com with the subject line \"Account Deletion Request\""
                 ],
                 "Upon receiving a verified deletion request, we will: Delete your user record from Firebase Authentication and all associated data from Firestore within 30 days, Notify RevenueCat to remove your App User ID from their active records, Confirm deletion to you by email.",
                 "Please note: RevenueCat and Apple retain transaction records for legal and financial compliance purposes independent of our deletion. We cannot delete payment records held by Apple or RevenueCat on our behalf."
@@ -370,7 +370,7 @@ export default function PrivacyPolicyPage() {
             title: "How Can I Access My Personal Data?",
             content: [
                 "You have the right to request a copy of the personal data we hold about you (a \"Subject Access Request\").",
-                "To make a Subject Access Request: Email us at privacy@qoozr.app with the subject line \"Subject Access Request\". Please include your registered email address or Firebase UID to help us identify your account.",
+                "To make a Subject Access Request: Email us at privacyinquiry@qoozrapp.com with the subject line \"Subject Access Request\". Please include your registered email address or Firebase UID to help us identify your account.",
                 "There is no charge for a Subject Access Request unless your request is manifestly unfounded or excessive.",
                 "We aim to respond to all Subject Access Requests within 30 days of receipt. In cases involving complex requests, we may require up to 60 days and will inform you of this in advance."
             ],
@@ -394,8 +394,8 @@ export default function PrivacyPolicyPage() {
                 "If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal data, please contact us:",
                 [
                     "Developer: Kavuma Kigere Julius",
-                    "General Support: support@qoozr.app",
-                    "Privacy & Data Requests: privacy@qoozr.app"
+                    "General Support: support@qoozrapp.com",
+                    "Privacy & Data Requests: privacyinquiry@qoozrapp.com"
                 ],
                 "Subject Line for data requests: Please use one of the following:",
                 [
@@ -486,7 +486,7 @@ export default function PrivacyPolicyPage() {
                             If you have any questions about this Privacy Policy or how we handle your personal data, please contact our Privacy Team.
                         </p>
                         <a
-                            href="mailto:privacy@qoozr.app"
+                            href="mailto:privacyinquiry@qoozrapp.com"
                             className="inline-flex items-center gap-2 bg-black text-white px-8 py-4 rounded-full font-bold text-[15px] hover:scale-[1.02] active:scale-95 transition-all"
                         >
                             Contact Privacy Team

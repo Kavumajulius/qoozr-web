@@ -51,7 +51,7 @@ export default function TermsPage() {
                     "You accept these Terms on behalf of your child",
                     "You confirm that you have reviewed our Privacy Policy — specifically Section 13 (Children's Privacy / COPPA) — and consent to the limited data collection practices described therein",
                     "You are responsible for supervising your child's use of the App, including their use of the AI Scan feature",
-                    "You may contact us at privacy@qoozr.app at any time to review, correct, or delete your child's data"
+                    "You may contact us at privacyinquiry@qoozrapp.com at any time to review, correct, or delete your child's data"
                 ]
             ],
         },
@@ -79,7 +79,7 @@ export default function TermsPage() {
                 [
                     "Maintaining the confidentiality of your Apple ID or Google Account credentials",
                     "All activity that occurs under your account, whether or not authorized by you",
-                    "Immediately notifying us at support@qoozr.app if you become aware of any unauthorized use of your account"
+                    "Immediately notifying us at support@qoozrapp.com if you become aware of any unauthorized use of your account"
                 ],
                 "We are not liable for any loss or damage arising from your failure to maintain the security of your sign-in credentials."
             ],
@@ -104,7 +104,7 @@ export default function TermsPage() {
                 "You may delete your account at any time by:",
                 [
                     "Using App Settings → Profile → Delete Account (where available in the App), or",
-                    "Contacting us at privacy@qoozr.app with the subject \"Account Deletion Request\""
+                    "Contacting us at privacyinquiry@qoozrapp.com with the subject \"Account Deletion Request\""
                 ],
                 "Account deletion is subject to our data retention practices as described in the Privacy Policy."
             ],
@@ -183,7 +183,7 @@ export default function TermsPage() {
                 "All refund requests for Qoozr Pro purchases must be submitted directly to Apple, as Apple processes all payments:",
                 "Report a Problem: https://reportaproblem.apple.com",
                 "Apple's refund decisions are final and at their sole discretion.",
-                "Qoozr does not issue refunds directly. If you believe you have been charged in error, please contact us at support@qoozr.app and we will do our best to assist you in working with Apple."
+                "Qoozr does not issue refunds directly. If you believe you have been charged in error, please contact us at support@qoozrapp.com and we will do our best to assist you in working with Apple."
             ],
         },
         {
@@ -329,7 +329,7 @@ export default function TermsPage() {
                     "By permitting your child to use Qoozr, you accept these Terms on their behalf and take full responsibility for their use of the App",
                     "You are responsible for supervising your child's use of the AI Scan feature. Images submitted by your child are processed by our AI service (OpenRouter) and are not stored — but you should be aware that any image your child captures is transmitted over the internet for processing",
                     "The App's AI Scan feature provides educational assistance. You should help your child understand the difference between using AI as a learning aid and submitting AI-generated work as their own in academic settings (see Section 8)",
-                    "You may contact us at privacy@qoozr.app to review, update, or request deletion of your child's personal data at any time. We will respond within 10 business days",
+                    "You may contact us at privacyinquiry@qoozrapp.com to review, update, or request deletion of your child's personal data at any time. We will respond within 10 business days",
                     "Qoozr does not display third-party advertisements and does not use Children's data for advertising or AI model training purposes"
                 ]
             ],
@@ -432,7 +432,7 @@ export default function TermsPage() {
         {
             title: "Informal Resolution First",
             content: [
-                "We believe most issues can be resolved by talking directly. Before initiating any formal legal action, you agree to contact us at support@qoozr.app to describe your concern and give us a reasonable opportunity (not less than 30 days) to resolve it informally."
+                "We believe most issues can be resolved by talking directly. Before initiating any formal legal action, you agree to contact us at support@qoozrapp.com to describe your concern and give us a reasonable opportunity (not less than 30 days) to resolve it informally."
             ],
         },
         {
@@ -453,8 +453,8 @@ export default function TermsPage() {
                 "For questions, concerns, or legal notices regarding these Terms and Conditions, please contact:",
                 [
                     "Developer: Kavuma Kigere Julius",
-                    "General Support: support@qoozr.app",
-                    "Legal & Privacy Contact: privacy@qoozr.app"
+                    "General Support: support@qoozrapp.com",
+                    "Legal & Privacy Contact: privacyinquiry@qoozrapp.com"
                 ],
                 "Subject Lines for specific requests:",
                 [
@@ -568,7 +568,7 @@ export default function TermsPage() {
                         </p>
                         <div className="flex flex-wrap justify-center gap-4">
                             <a
-                                href="mailto:legal@qoozr.app"
+                                href="mailto:support@qoozrapp.com"
                                 className="inline-flex items-center gap-2 bg-black text-white px-8 py-4 rounded-full font-bold text-[15px] hover:scale-[1.02] active:scale-95 transition-all"
                             >
                                 Contact Legal Team
