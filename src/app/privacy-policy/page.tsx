@@ -219,9 +219,9 @@ export default function PrivacyPolicyPage() {
             content: [
                 "Qoozr Pro is available in the following subscription tiers, all processed through Apple IAP:",
                 [
-                    "7-Day Free Trial — 7 days of full Pro access at no charge, then converts to the Monthly plan",
-                    "Qoozr Pro Monthly — Full Pro access, billed monthly",
-                    "Qoozr Pro Annual — Full Pro access, billed annually (discounted rate)"
+                    "7-Day Free Trial (Rolling to Monthly) — 7 days of full Pro access at no charge, then converts to the Monthly plan",
+                    "Monthly Pro Subscription — A standard auto-renewing monthly plan (dynamically priced, approx. $12.99 USD/month)",
+                    "Annual Pro Subscription — A discounted auto-renewing yearly plan billed once every 12 months (dynamically priced, approx. $109.99 USD/year)"
                 ],
                 "Pricing for each plan is clearly displayed on the paywall screen before you tap the subscribe button. No hidden charges apply. The free tier of Qoozr is fully functional and can be tested and used without any purchase.",
                 "Restore Purchases: A \"Restore Purchases\" button is available on the Qoozr paywall screen. If you have previously subscribed to Qoozr Pro and reinstall the App or switch devices, tapping this button will verify your prior purchase with Apple and RevenueCat and restore your Pro access. No additional charge is made for restoring a valid, active subscription.",

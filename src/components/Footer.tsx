@@ -78,7 +78,7 @@ export default function Footer() {
                                     <li><Link href="/#features" onClick={(e) => scrollToSection(e, 'features')} className="text-[16px] font-medium text-text-main hover:text-primary transition-colors">Features</Link></li>
                                     <li><Link href="/#how-it-works" onClick={(e) => scrollToSection(e, 'how-it-works')} className="text-[16px] font-medium text-text-main hover:text-primary transition-colors">How It Works</Link></li>
                                     <li><Link href="/#study-goals" onClick={(e) => scrollToSection(e, 'study-goals')} className="text-[16px] font-medium text-text-main hover:text-primary transition-colors">Study Goals</Link></li>
-                                    <li><Link href="/#faq" onClick={(e) => scrollToSection(e, 'faq')} className="text-[16px] font-medium text-text-main hover:text-primary transition-colors">FAQs</Link></li>
+                                    <li><Link href="/founders" className="text-[16px] font-medium text-text-main hover:text-primary transition-colors">Our Founders</Link></li>
                                 </ul>
                             </div>
 
@@ -88,10 +88,10 @@ export default function Footer() {
                                 <ul className="flex flex-col gap-4">
                                     <li>
                                         <Link
-                                            href="/founders"
+                                            href="/subscriptions-policy"
                                             className="text-[16px] font-medium text-text-main hover:text-primary transition-colors"
                                         >
-                                            Our Founders
+                                            Subscriptions Policy
                                         </Link>
                                     </li>
                                     <li>

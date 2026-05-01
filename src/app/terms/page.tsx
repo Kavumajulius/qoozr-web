@@ -148,9 +148,9 @@ export default function TermsPage() {
             content: [
                 "Qoozr Pro is available in the following subscription tiers. Pricing is displayed clearly on the in-app paywall screen before you tap the subscribe or purchase button:",
                 [
-                    "7-Day Free Trial — Full Pro access for 7 days at no charge, then automatically converts to the Monthly plan",
-                    "Qoozr Pro Monthly — Full Pro access, billed monthly",
-                    "Qoozr Pro Annual — Full Pro access, billed annually at a discounted rate"
+                    "7-Day Free Trial (Rolling to Monthly) — Full Pro access for 7 days at no charge, then automatically converts to the Monthly plan",
+                    "Monthly Pro Subscription — A standard auto-renewing monthly plan (dynamically priced, approx. $12.99 USD/month)",
+                    "Annual Pro Subscription — A discounted auto-renewing yearly plan billed once every 12 months (dynamically priced, approx. $109.99 USD/year)"
                 ],
                 "Exact pricing in your local currency is displayed on the paywall screen before purchase. All prices are inclusive of applicable taxes as determined by Apple."
             ],
