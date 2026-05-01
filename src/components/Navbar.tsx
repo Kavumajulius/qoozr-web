@@ -70,7 +70,9 @@ export default function Navbar() {
                 <div className="flex items-center gap-3 shrink-0">
                     {/* App Store */}
                     <Link
-                        href="#"
+                        href="https://apps.apple.com/us/app/qoozr-ai-tutor-quiz/id6761049430"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hidden sm:flex w-10 h-10 items-center justify-center rounded-full bg-black text-white hover:scale-105 transition-transform"
                         aria-label="App Store"
                     >
@@ -114,7 +116,14 @@ export default function Navbar() {
                         </button>
                     ))}
                     <div className="flex gap-3 mt-3 px-5 pb-2">
-                        <Link href="#" className="flex-1 bg-black text-white text-center py-3 rounded-full text-[14px] font-bold">App Store</Link>
+                        <Link 
+                            href="https://apps.apple.com/us/app/qoozr-ai-tutor-quiz/id6761049430" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex-1 bg-black text-white text-center py-3 rounded-full text-[14px] font-bold"
+                        >
+                            App Store
+                        </Link>
                     </div>
                 </motion.div>
             )}

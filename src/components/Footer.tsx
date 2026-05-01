@@ -39,7 +39,9 @@ export default function Footer() {
                     {/* Download Buttons */}
                     <div className="flex flex-wrap justify-center gap-4">
                         <Link
-                            href="#"
+                            href="https://apps.apple.com/us/app/qoozr-ai-tutor-quiz/id6761049430"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="flex items-center gap-3 bg-black text-white px-7 py-4 rounded-full font-bold text-[15px] hover:scale-[1.02] active:scale-95 transition-all shadow-lg shadow-black/10"
                         >
                             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
