@@ -112,6 +112,14 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <Link
+                                            href="/eula"
+                                            className="text-[16px] font-medium text-text-main hover:text-primary transition-colors"
+                                        >
+                                            EULA
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
                                             href="/support"
                                             className="text-[16px] font-medium text-text-main hover:text-primary transition-colors"
                                         >
